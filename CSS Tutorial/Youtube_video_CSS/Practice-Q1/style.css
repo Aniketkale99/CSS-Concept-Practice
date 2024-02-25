@@ -1,0 +1,22 @@
+*{
+font-family:'Courier New', Courier, monospace;
+
+}
+
+h1{
+    color: #1b74e4;
+}
+
+#searchbtn{
+    background-color: black;
+    color: #fff;
+}
+
+.userbtn
+{
+    background-color: aqua;
+}
+
+/*concept used here are - 1. id selector */
+/*2. class selector */
+/*3.Font Family*/

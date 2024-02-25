@@ -1,0 +1,41 @@
+*{
+    text-align: center;
+}
+
+#mainTopic{
+
+    color: blue;
+}
+
+/* to change the family of font of all the headings  */
+h1 h3 h5{
+    font-family: Georgia;
+}
+
+.para{
+    color: white;
+    background-color: cornflowerblue;
+}
+
+button{
+    background-color: purple;
+    color: azure;
+}
+
+button:hover{
+    background-color: yellow;
+    color:blue;
+}
+
+.para:nth-child(2n-1){
+
+    color: yellow;
+}
+
+h1::first-letter{
+    color: red;
+}
+
+#yes:checked +label{
+    color: darkgreen;
+}

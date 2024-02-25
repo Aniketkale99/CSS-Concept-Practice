@@ -1,0 +1,32 @@
+div{
+    width: 500px;
+    height: 200px;
+   padding: 10px;
+    background-color: pink;
+    border: 5px red solid;
+    border-radius: 20px;
+    margin:20px;
+    display:grid;
+    place-items: center;
+}
+
+h1{
+border: 3px dashed green;
+margin: 20px;
+display:grid;
+place-items: center;
+border-radius: 20px;
+
+}
+
+button{
+    background-color: blueviolet;
+    border:2px black solid;
+    border-radius: 5px;
+    padding: 10px;
+    display:grid;
+    place-items: center;
+    border-radius: 20px;
+    margin:20px;
+}
+

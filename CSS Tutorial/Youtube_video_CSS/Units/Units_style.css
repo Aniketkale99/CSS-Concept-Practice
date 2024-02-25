@@ -1,0 +1,33 @@
+/* h1{
+    font-size: 54px;
+    color: crimson;
+}
+p{
+    font-size: 36px;
+}
+
+li{
+    font-size: 44px;
+} */
+
+/* creation of custom fonts */
+@font-face {
+    font-family: Aniket_font;
+    src: url(/Youtube_video_CSS/Units/font/Angelina-rnlA.otf);
+}
+
+/* using the custom fonts */
+ h1{
+    font-size: 3.375em;
+    color: crimson;
+    font-family: Aniket_font;
+    
+}
+
+.parent{
+    font-size: 10px;
+}
+
+li{
+    font-size: 2.75em;
+}

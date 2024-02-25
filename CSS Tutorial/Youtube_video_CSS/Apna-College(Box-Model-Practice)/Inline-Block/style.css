@@ -1,0 +1,14 @@
+/* Displaying the block element in an inline manner  */
+
+div{
+    width:200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: yellowgreen;
+    margin:10px;
+    display:inline-block ;
+}
+
+/*  when these elements are displayed inline then they do not take the properties of the block elements such as the border color top and bottom margin but at the same time just to behave as a inline e;ement they take left and right margins only */
+
+/* In order to solve above problem we have one property called as the display: inline-block where the properties of both inline and block elements are displayed. */

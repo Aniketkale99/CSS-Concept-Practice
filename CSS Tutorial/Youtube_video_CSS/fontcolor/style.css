@@ -1,0 +1,54 @@
+h1{
+    color: #000;
+}
+
+h1:hover{
+
+    color: brown;
+
+}
+/* Clss selector */
+.para2{
+
+    color:palevioletred;
+    font-weight: bold;
+}
+
+/* initially setting the text and background color */
+#btn{
+
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+/* After hover swtting the text and background color */
+#btn:hover{
+
+    background-color:blue;
+    color:black;
+    font-weight: bold;
+}
+
+/*rgb notation for colors */
+h2{
+    color: rgb(120,120,0);
+}
+
+/*hex notation for colors */
+
+h3{
+    color: #004225;
+}
+
+/* inheriting the color of class to its element */
+
+.hero-section{
+    color: rgb(120,120,0);
+}
+
+#p1{
+
+    color: currentColor;
+}
+
+

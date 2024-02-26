@@ -1,0 +1,46 @@
+body{
+    background-color: pink;
+}
+
+
+
+.face{
+    height: 400px;
+    width: 400px;
+    border: 2px yellow bold;
+    border-radius: 50%;
+    background-color: yellow;
+
+}
+
+.mouth{
+   height: 75px;
+   width: 200px;
+   background-color: red;
+   border: 2px red solid;
+   border-radius: 0 0 50px 50px;
+   position: absolute;
+   top: 250px;
+   left: 100px;
+
+}
+
+.left , .right{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+}
+
+.left{
+    position:absolute;
+    left:75px;
+    top:100px;
+}
+
+.right{
+    position:absolute;
+    left:250px;
+    top:100px;
+}

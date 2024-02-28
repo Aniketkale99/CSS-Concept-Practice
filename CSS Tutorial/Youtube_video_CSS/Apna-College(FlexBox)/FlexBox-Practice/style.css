@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+  }
+
+
+  html {
+    font-size: 62.5%;
+    font-family: "Urbanist", sans-serif;
+}
+
+body{
+    background-color: azure;
+
+}
+
+.flex-container{
+     width: 400px;
+     height: 400px;
+     display: flex;
+     /* this is done so that the content which is going outside comes in the next row of the flexbox */
+     flex-wrap: wrap;
+     flex-direction: row;
+     border: 2px solid black;
+     border-radius:10px ;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    }
+  
+.inbox{
+    width:100px;
+    height: 100px;
+    border: 2px solid black;
+    text-transform: uppercase ;
+    font-size: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: grey;
+  }

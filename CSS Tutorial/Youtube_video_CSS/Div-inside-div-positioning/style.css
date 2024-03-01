@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  
+    display: grid;
+    place-items: center;
+    margin: 30px;
+
+}
+
+/* this is the parent element */
+.container{
+    width:600px;
+    height: 600px;
+    background-color: violet;
+    border: 2px solid black;
+    
+    /* Trick-1 */
+    /* position:relative; */
+
+    /* Trick-2 */
+    /* positioing using flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Trick-3 */
+    /* display: grid;
+    place-items: center; */
+
+/* Trick-4 using grid and its functions */
+    /* display: grid;
+    align-items: center;
+    justify-content: center; */
+
+
+    /* using Flex and then margin */
+    /* display: flex; */
+}
+
+
+/* this is the child element */
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+
+    /* Trick-1 */
+    /* positioning the child */
+    /* position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%); */
+
+
+    /* contuniue Trick-5 */
+    /* margin: auto; */
+
+
+    /* Aligining the text at center */
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 10px;
+color: black;
+
+
+}
